@@ -1,25 +1,42 @@
 {
-  "dependencies": {
-    "@apollo/react-hooks": "3.1.5",
-    "@apollo/react-ssr": "3.1.5",
-    "@stripe/react-stripe-js": "1.1.2",
-    "@stripe/stripe-js": "1.5.0",
-    "apollo-boost": "0.4.7",
-    "axios": "0.19.2",
-    "dompurify": "^2.2.7",
-    "express": "^4.17.1",
-    "graphql": "15.0.0",
-    "isomorphic-fetch": "2.2.1",
-    "js-cookie": "2.2.1",
-    "next": "9.4.0",
-    "next-apollo": "3.1.10",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "reactstrap": "^8.9.0"
-  },
+  "name": "backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start -p $PORT"
-  }
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^26.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "ckeditor-build-with-simple-upload-provider-strapi": "^1.0.7",
+    "graphql": "^15.5.0",
+    "strapi": "3.4.6",
+    "strapi-admin": "3.4.6",
+    "strapi-connector-mongoose": "3.4.6",
+    "strapi-plugin-content-manager": "3.4.6",
+    "strapi-plugin-content-type-builder": "3.4.6",
+    "strapi-plugin-email": "3.4.6",
+    "strapi-plugin-graphql": "3.4.6",
+    "strapi-plugin-upload": "3.4.6",
+    "strapi-plugin-users-permissions": "3.4.6",
+    "strapi-provider-upload-cloudinary": "^3.5.0",
+    "strapi-utils": "3.4.6",
+    "stripe": "^8.135.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3e47d0ba-0f76-4bb4-8680-19884e644d69"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
 }
